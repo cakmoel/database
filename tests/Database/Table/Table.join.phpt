@@ -82,7 +82,7 @@ test(function () use ($context) {
 });
 
 
-test(function () use ($connection, $structure) {
+test(function () use ($connection, $structure, $driverName) {
 	$context = new Nette\Database\Context(
 		$connection,
 		$structure,
