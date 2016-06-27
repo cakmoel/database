@@ -185,7 +185,7 @@ class ResultSet implements \Iterator, IRowContainer
 			}
 		}
 
-		return $this->supplementalDriver->normalizeRow($row);
+		return $row;
 	}
 
 

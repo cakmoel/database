@@ -92,15 +92,6 @@ class OdbcDriver implements Nette\Database\ISupplementalDriver
 	}
 
 
-	/**
-	 * Normalizes result row.
-	 */
-	public function normalizeRow($row)
-	{
-		return $row;
-	}
-
-
 	/********************* reflection ****************d*g**/
 
 
